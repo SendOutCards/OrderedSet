@@ -8,6 +8,6 @@ let package = Package(
     ],
     targets: [
         .target(name: "OrderedSet"),
-        .testTarget(name: "OrderedSetTests"),
+        .testTarget(name: "OrderedSetTests", dependencies: ["OrderedSet"]),
     ]
 )
