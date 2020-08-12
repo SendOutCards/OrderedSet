@@ -1,5 +1,7 @@
 # OrderedSet
 
+![Tests](https://github.com/paulofaria/OrderedSet/workflows/Tests/badge.svg)
+
 `OrderedSet` is a native Swift ordered set. It has the behavior and features of `Array` and `Set` in one abstract type.
 ```swift
 var names: OrderedSet<String> = ["Brad", "Jake", "Susan"]
